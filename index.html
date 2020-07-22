@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Environment</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+	</head>
+	<body>
+
+		<header>
+
+		</header>
+
+		<div id = 'turtleSpace'>
+			<!-- <p id = 'mouse'>mouse position : </p> -->
+			<p id = 'scale'></p>
+			<div id = 'test' ></div>
+			<!-- <a id = 'link'>hover test</a> -->
+		</div>
+
+		<footer>
+
+
+		</footer>
+
+		<script type="text/javascript" src = 'var.js'></script>
+		<script type="text/javascript" src = 'turtle.js'></script>
+		<script type="text/javascript" src = 'trees.js'></script>
+		<!--<script type="text/javascript" src = 'branch.js'></script>-->
+		<script type="text/javascript" src = 'wind.js'></script>
+		<script type="text/javascript">
+
+			function build(){
+				var x_pos;
+				x_pos=Math.floor(Math.random()* screen.width);
+				plantTree(x_pos);
+				x_pos=Math.floor(Math.random()* screen.width);
+				plantTree(x_pos);
+				x_pos=Math.floor(Math.random()* screen.width);
+				plantTree(x_pos);
+				x_pos=Math.floor(Math.random()* screen.width);
+				plantTree(x_pos);
+				x_pos=Math.floor(Math.random()* screen.width);
+				plantTree(x_pos);
+			}
+
+			build();
+
+		</script>
+	</body>
+</html>
